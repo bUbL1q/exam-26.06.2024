@@ -1,1 +1,5 @@
-# exam-26.06.2024
+docker build -t test-exam .
+
+docker run -d -p 3001:3000 test-exam
+
+http://localhost:3001/
